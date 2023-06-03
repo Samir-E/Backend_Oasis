@@ -7,8 +7,8 @@ python -m pip install -r requirements.txt
 Старт:
 
 Для начал читаем README.
-Открываем git bash в нужной папке, копируем команду из README.
-Переходим в репозиторий (cd FQW/), и пишем команды в след. порядке:
+*Открываем git bash в нужной папке, копируем команду из README.
+*Переходим в репозиторий (cd FQW/), и пишем команды в след. порядке:
 (1) git branch develop
 (2) git checkout develop
 (3) git pull origin develop
