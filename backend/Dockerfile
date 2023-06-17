@@ -2,6 +2,8 @@ FROM python:3.11
 
 WORKDIR /app
 
+EXPOSE 8000
+
 RUN apt-get install libpq-dev
 
 COPY requirements.txt ./
