@@ -10,8 +10,8 @@ from menu.models import Positions
 
 class Orders(models.Model):
     """История заказов"""
-    cart_num = models.OneToOneField('Cart', to_delete=models.PROTECT)
-    item = models.ManyToManyField('OrderItem', to_delete=models.PROTECT)
+    #cart_num = models.OneToOneField('Cart', to_delete=models.PROTECT)
+    #item = models.ManyToManyField('OrderItem', to_delete=models.PROTECT)
     order_num = models.CharField(max_length=30,
                                  null=True,
                                  blank=True,
